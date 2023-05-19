@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+#ui, #art {
+  width: 50%;
+  height: 100%;
+}
+
+.sliderDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.uiButton {
+  margin-top: 20px;
+}
+
+.step-text {
+  flex: none;
+  text-align: center;
+  font-size: 12px;
+}
