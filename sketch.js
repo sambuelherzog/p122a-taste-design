@@ -32,6 +32,9 @@ function preload() {
 }
 
 function setup() {
+    let canvas = createCanvas(windowWidth/2, windowHeight);
+  canvas.parent("p5Canvas");
+  
   createCanvas(windowWidth/2, windowHeight);
   pixelDensity(1);
 
